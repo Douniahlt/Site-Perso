@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Origami Renard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="loading-screen" id="loading-screen">
+        <div class="paper-fold-loader"></div>
+        <div class="loading-text">Chargement</div>
+    </div>
+
+    <div id="scene-container"></div>
+    
+    <div class="interface">
+        <!-- Bouton de thème clair/sombre -->
+        <button class="theme-toggle" id="theme-toggle" title="Changer de thème">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" id="theme-icon"></path>
+            </svg>
+        </button>
+
+        <!-- Personnalisation de la couleur du renard -->
+        <div class="fox-customizer" id="fox-customizer">
+            <div class="color-option" style="background-color: #ff7e5f;" data-color="#ff7e5f" title="Orange"></div>
+            <div class="color-option" style="background-color: #5f9fff;" data-color="#5f9fff" title="Bleu"></div>
+            <div class="color-option" style="background-color: #5fff7e;" data-color="#5fff7e" title="Vert"></div>
+            <div class="color-option" style="background-color: #ff5fd0;" data-color="#ff5fd0" title="Rose"></div>
+            <div class="color-option" style="background-color: #ffdb5f;" data-color="#ffdb5f" title="Jaune"></div>
+        </div>
+
+        <!-- Contrôle du son -->
+        <button class="sound-toggle" id="sound-toggle" title="Activer/désactiver le son">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="sound-icon">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <line x1="23" y1="9" x2="17" y2="15"></line>
+                <line x1="17" y1="9" x2="23" y2="15"></line>
+            </svg>
+        </button>
+        
+        <div class="instruction" id="instruction">
+            Cliquez sur le papier pour avancer dans le pliage origami du renard
+        </div>
+        
+        <div class="step-indicator" id="step-indicator">
+            <div class="step-progress" id="step-progress">
+                <div class="step-dot active" data-step="1" title="Feuille de départ"></div>
+                <div class="step-dot" data-step="2" title="Premier pliage"></div>
+                <div class="step-dot" data-step="3" title="Forme de base"></div>
+                <div class="step-dot" data-step="4" title="Détails du renard"></div>
+                <div class="step-dot" data-step="5" title="Renard complet"></div>
+            </div>
+            <div class="step-description" id="step-description">Feuille de départ</div>
+        </div>
+        
+        <div class="content-panel">
+            <div class="section active" id="home-section">
+                <h2>Bienvenue</h2>
+                <p>Explorez mon portfolio à travers un origami de renard qui se plie progressivement.</p>
+                <p>Je suis Dounia Hullot, étudiante en informatique passionnée par l'art numérique et la programmation graphique.</p>
+                <p>Cliquez sur le papier pour avancer dans le processus de pliage et découvrir les différentes sections de mon portfolio.</p>
+            </div>
+            
+            <div class="section" id="about-section">
+                <h2>À propos</h2>
+                <p>Actuellement en troisième année de licence en informatique, je suis une passionnée d'innovation numérique et de création artistique. 
+                <br>Curieuse de nature, j’aime explorer de nouvelles technologies et repousser les limites de l'imaginaire à travers le code. 
+                <br>Mon objectif ? Évoluer dans un environnement où la créativité et la technique se rencontrent, pour donner vie à des expériences interactives uniques.</p>
+                
+                <div class="about-grid">
+                    
+                    <div class="about-column">
+                        
+                        
+                        <h3>Langues</h3>
+                        <div class="skills-container">
+                            <div class="skill-tag">Anglais B2</div>
+                            <div class="skill-tag">Espagnol A2</div>
+                        </div>
+                        
+                        <h3>Centres d'intérêt</h3>
+                        <div class="skills-container">
+                            <div class="skill-tag">Lecture</div>
+                            <div class="skill-tag">Danse</div>
+                            <div class="skill-tag">Jeux-vidéo</div>
+                            <div class="skill-tag">Musique</div>
+                            <div class="skill-tag">Dessin papier/digital</div>
+                            <div class="skill-tag">Peinture</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section" id="skills-section">
+                <h2>Compétences</h2>
+                
+                <h3>Programmation et développement</h3>
+                <div class="skills-container">
+                    <div class="skill-tag">Python</div>
+                    <div class="skill-tag">C/C++</div>
+                    <div class="skill-tag">JavaScript</div>
+                    <div class="skill-tag">HTML/CSS</div>
+                    <div class="skill-tag">SQL</div>
+                    <div class="skill-tag">OCaml</div>
+                    <div class="skill-tag">Prolog</div>
+                    <div class="skill-tag">Racket</div>
+                </div>
+                
+                <h3>Technologies graphiques</h3>
+                <div class="skills-container">
+                    <div class="skill-tag">Three.js</div>
+                    <div class="skill-tag">WebGL</div>
+                    <div class="skill-tag">OpenGL</div>
+                    <div class="skill-tag">Godot</div>
+                    <div class="skill-tag">GDScript</div>
+                    <div class="skill-tag">Blender</div>
+                </div>
+                
+                <h3>Outils graphiques</h3>
+                <div class="skills-container">
+                    <div class="skill-tag">Photoshop</div>
+                    <div class="skill-tag">ClipStudio</div>
+                    <div class="skill-tag">Krita</div>
+                    <div class="skill-tag">Canva</div>
+                    <div class="skill-tag">Blender</div>
+                </div>
+                
+                <p>Je développe constamment ces compétences à travers des projets personnels et académiques, combinant l'aspect technique de la programmation avec une vision créative et artistique.</p>
+            </div>
+            
+            <div class="section" id="portfolio-section">
+                <h2>Portfolio</h2>
+                <p>Découvrez l'ensemble de mes projets professionnels et créatifs :</p>
+                
+                <!-- Onglets pour naviguer entre les types de projets -->
+                <div class="portfolio-tabs">
+                    <button class="portfolio-tab active" data-category="professional">Projets personnels</button>
+                    <button class="portfolio-tab" data-category="creative">Projets académiques</button>
+                </div>
+                
+                <!-- Conteneur pour les projets professionnels -->
+                <div class="portfolio-category-container active" id="professional-projects">
+                    <div class="portfolio-items">
+                        <div class="portfolio-item" data-project="origami">
+                            <div class="portfolio-image">
+                                <img src="/api/placeholder/400/300" alt="Site Origami Interactif">
+                                <div class="portfolio-overlay">
+                                    <button class="view-project">Voir le projet</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <div class="portfolio-title">Origami Interactif</div>
+                                <div class="portfolio-category">Three.js / WebGL</div>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-item" data-project="ecommerce">
+                            <div class="portfolio-image">
+                                <img src="/api/placeholder/400/300" alt="Portfolio3D">
+                                <div class="portfolio-overlay">
+                                    <button class="view-project">Voir le projet</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <div class="portfolio-title">Portfolio 3D</div>
+                                <div class="portfolio-category">Blender / UnrealEngine</div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item" data-project="dessin">
+                            <div class="portfolio-image">
+                                <img src="/api/placeholder/400/300" alt="Portfolio Dessin">
+                                <div class="portfolio-overlay">
+                                    <button class="view-project">Voir le projet</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <div class="portfolio-title">Dessins et Illustrations</div>
+                                <div class="portfolio-category">Digital / Traditionnel</div>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-item" data-project="visualization">
+                            <div class="portfolio-image">
+                                <img src="/api/placeholder/400/300" alt="Projet Visualisation 3D">
+                                <div class="portfolio-overlay">
+                                    <button class="view-project">Voir le projet</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <div class="portfolio-title">Visualisation 3D</div>
+                                <div class="portfolio-category">OpenGL / Raylib</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Conteneur pour les projets créatifs -->
+                <div class="portfolio-category-container" id="creative-projects">
+                    <div class="portfolio-items">
+                        <div class="portfolio-item" data-project="ludo">
+                            <div class="portfolio-image">
+                                <img src="/api/placeholder/400/300" alt="Jeu du Ludo en Python">
+                                <div class="portfolio-overlay">
+                                    <button class="view-project">Voir le projet</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <div class="portfolio-title">Jeu du Ludo en Python</div>
+                                <div class="portfolio-category">Algorithmes / Interface</div>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-item" data-project="ecosystem">
+                            <div class="portfolio-image">
+                                <img src="/api/placeholder/400/300" alt="Simulation d'écosystème">
+                                <div class="portfolio-overlay">
+                                    <button class="view-project">Voir le projet</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <div class="portfolio-title">Écosystème Simulé</div>
+                                <div class="portfolio-category">C++ / Simulation</div>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-item" data-project="godot">
+                            <div class="portfolio-image">
+                                <img src="/api/placeholder/400/300" alt="Jeux vidéo Godot">
+                                <div class="portfolio-overlay">
+                                    <button class="view-project">Voir le projet</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <div class="portfolio-title">Jeux 2D avec Godot</div>
+                                <div class="portfolio-category">GDScript / Animation</div>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-item" data-project="interactive">
+                            <div class="portfolio-image">
+                                <img src="/api/placeholder/400/300" alt="Explication interactive">
+                                <div class="portfolio-overlay">
+                                    <button class="view-project">Voir le projet</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <div class="portfolio-title">Article Interactif</div>
+                                <div class="portfolio-category">Vulgarisation / Mini-jeux</div>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-item" data-project="tictactoe">
+                            <div class="portfolio-image">
+                                <img src="/api/placeholder/400/300" alt="Ultimate Tic Tac Toe avec IA">
+                                <div class="portfolio-overlay">
+                                    <button class="view-project">Voir le projet</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <div class="portfolio-title">Ultimate Tic Tac Toe</div>
+                                <div class="portfolio-category">C / IA Minimax</div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item" data-project="app">
+                            <div class="portfolio-image">
+                                <img src="/api/placeholder/400/300" alt="Projet App Mobile">
+                                <div class="portfolio-overlay">
+                                    <button class="view-project">Voir le projet</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <div class="portfolio-title">App Mobile</div>
+                                <div class="portfolio-category">UI/UX Design</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section" id="contact-section">
+                <h2>Contact</h2>
+                <p>Vous souhaitez en savoir plus sur mes projets ? N'hésitez pas à me contacter.</p>
+                <p><strong>Email :</strong> dounia.hullot@gmail.com</p>
+                <p><strong>Localisation :</strong> Paris, France</p>
+                
+                <div class="skills-container">
+                    <div class="skill-tag"><a href="https://www.linkedin.com/in/dounia-hullot-a6025a223/" style="text-decoration: none; color: inherit;">LinkedIn</a></div>
+                    <div class="skill-tag"><a href="https://github.com/Douniahlt" style="text-decoration: none; color: inherit;">GitHub</a></div>
+                </div>
+            </div>
+        </div>
+        
+        <button class="next-button" id="next-button">
+            Étape suivante
+        </button>
+        
+        <button class="reset-button" id="reset-button">
+            Recommencer
+        </button>
+        
+        <div class="nav-menu">
+            <button class="nav-button active" data-section="home">Accueil</button>
+            <button class="nav-button" data-section="about">À propos</button>
+            <button class="nav-button" data-section="skills">Compétences</button>
+            <button class="nav-button" data-section="portfolio">Portfolio</button>
+            <button class="nav-button" data-section="contact">Contact</button>
+        </div>
+    </div>
+
+    <!-- Modal de projet détaillé -->
+    <div class="project-modal" id="project-modal">
+        <div class="project-content">
+            <div class="project-header">
+                <h2 class="project-title" id="modal-title">Titre du projet</h2>
+                <button class="project-close" id="modal-close">&times;</button>
+            </div>
+            <div class="project-gallery" id="modal-gallery">
+                <!-- Images du projet -->
+            </div>
+            <div class="project-description" id="modal-description">
+                <!-- Description du projet -->
+            </div>
+            <div class="project-meta" id="modal-tech">
+                <!-- Technologies utilisées -->
+            </div>
+            <div class="project-links" id="modal-links">
+                <!-- Liens du projet -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
