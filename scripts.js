@@ -1439,188 +1439,239 @@ function toggleSound() {
 
 // Données des projets pour la vue détaillée
 const projectsData = {
+    // PROJETS PERSONNELS
     origami: {
         title: "Origami Interactif",
         description: `
-            <p>Ce projet explore l'art traditionnel de l'origami à travers une expérience web interactive et immersive. En utilisant Three.js et WebGL, j'ai créé une simulation 3D qui permet aux utilisateurs de plier virtuellement du papier pour créer divers modèles d'origami.</p>
-            <p>L'interface intuitive guide les utilisateurs à travers chaque étape du processus de pliage, avec des animations fluides et des transitions élégantes. Des indicateurs visuels montrent où plier, et les utilisateurs peuvent faire pivoter et zoomer sur le modèle à tout moment.</p>
-            <p>Ce projet combine art traditionnel japonais et technologie moderne pour créer une expérience éducative et méditative, accessible à tous les niveaux.</p>
+            <p>Ce projet est le portfolio interactif que vous consultez actuellement ! J'ai créé cette expérience immersive en utilisant Three.js et WebGL pour simuler le pliage d'origami d'un renard, une technique traditionnelle japonaise réinterprétée en 3D.</p>
+            <p>L'interface guide les visiteurs à travers mon profil tout en révélant progressivement un modèle d'origami, avec des animations fluides et des transitions élégantes. J'ai implémenté des contrôles intuitifs permettant de changer les couleurs du renard et de basculer entre les thèmes clair et sombre.</p>
+            <p>La conception responsive assure une expérience optimale sur tous les appareils, tandis que l'aspect ludique encourage l'exploration de mon travail de manière innovante et mémorable.</p>
         `,
+        // IMAGES PROJET 1: Origami Interactif
+        // Remplacez ces chemins par les chemins réels vers vos images
         images: [
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500"
+            "assets/Load.png",  // Image principale du projet
+            "assets/site2.png",  // Deuxième vue du projet
+            "assets/site3.png"   // Troisième vue du projet
         ],
-        technologies: ["Three.js", "WebGL", "JavaScript", "HTML5", "CSS3", "GSAP"],
+        technologies: ["Three.js", "WebGL", "JavaScript", "HTML5", "CSS3"],
+        // LIENS PROJET 1: Origami Interactif
+        // Remplacez ces URLs par vos liens réels
         links: [
-            { text: "Démo Live", url: "#demo" },
-            { text: "Code Source", url: "#github" }
+            { text: "Code Source", url: "https://github.com/Douniahlt/Site-Perso" },
+            { text: "Démo Live", url: "https://douniahlt.github.io/Site-Perso/" }
         ]
     },
-    ecommerce: {
-        title: "Plateforme E-commerce",
+    portfolio3d: {
+        title: "Portfolio 3D",
         description: `
-            <p>J'ai conçu et développé cette plateforme e-commerce complète pour une marque de produits artisanaux. L'objectif était de créer une expérience d'achat fluide et agréable qui met en valeur chaque produit unique.</p>
-            <p>Le site comprend un système de panier avancé, une gestion des stocks en temps réel, des paiements sécurisés via Stripe, et un tableau de bord administrateur personnalisé. La plateforme est entièrement responsive et optimisée pour tous les appareils.</p>
-            <p>L'architecture frontend React s'appuie sur un backend Node.js avec une base de données MongoDB. Les performances ont été optimisées pour assurer des temps de chargement rapides et une expérience utilisateur sans friction.</p>
+            <p>Ce portfolio 3D alternatif présente mes projets dans un environnement virtuel immersif créé avec Blender et exporté via Unreal Engine. Inspiré par les jeux vidéo d'exploration, il permet aux visiteurs de se déplacer librement dans un espace interactif représentant mon univers créatif.</p>
+            <p>Chaque zone thématique expose différents aspects de mon travail, avec des objets interactifs révélant des informations détaillées sur mes projets. L'ambiance visuelle et sonore change dynamiquement selon la zone explorée, créant une expérience sensorielle complète.</p>
+            <p>Ce projet démontre ma passion pour la conception d'espaces virtuels et l'intégration harmonieuse d'éléments 3D et d'interactions utilisateur innovantes.</p>
         `,
+        // IMAGES PROJET 2: Portfolio 3D
+        // Remplacez ces chemins par les chemins réels vers vos images
         images: [
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500"
+            "images/portfolio3d/image1.jpg",  // Vue principale de l'environnement 3D
+            "images/portfolio3d/image2.jpg",  // Exemple d'interaction dans l'espace
+            "images/portfolio3d/image3.jpg"   // Autre angle de l'environnement
         ],
-        technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe API", "Redux", "Styled Components"],
+        technologies: ["Blender", "Unreal Engine", "Modeling 3D", "Three.js"],
+        // LIENS PROJET 2: Portfolio 3D
+        // Remplacez ces URLs par vos liens réels
         links: [
-            { text: "Visiter le site", url: "#site" },
-            { text: "Étude de cas", url: "#case-study" }
-        ]
-    },
-    app: {
-        title: "Application Mobile de Bien-être",
-        description: `
-            <p>Cette application mobile aide les utilisateurs à maintenir des habitudes quotidiennes positives et à suivre leur bien-être mental et physique. J'ai dirigé la conception UX/UI de l'application, en me concentrant sur la création d'une interface apaisante et intuitive.</p>
-            <p>Après de nombreuses sessions de recherche utilisateur et de tests d'utilisabilité, j'ai développé un système de navigation fluide et des visualisations de données personnalisées qui permettent aux utilisateurs de suivre facilement leurs progrès au fil du temps.</p>
-            <p>L'application comprend des fonctionnalités de méditation guidée, de suivi d'habitudes, de journalisation des humeurs, et d'établissement d'objectifs, le tout présenté dans une interface minimaliste et élégante.</p>
-        `,
-        images: [
-            "/api/placeholder/400/800",
-            "/api/placeholder/400/800",
-            "/api/placeholder/400/800"
-        ],
-        technologies: ["Figma", "Adobe XD", "Sketch", "Principle", "Prototypage", "Design System"],
-        links: [
-            { text: "Télécharger", url: "#download" },
-            { text: "Voir le design", url: "#behance" }
+            { text: "Voir la démo", url: "https://youtu.be/VOTRE_ID_VIDEO" },
+            { text: "ArtStation", url: "https://www.artstation.com/VOTRE_PROFIL" }
         ]
     },
     visualization: {
-        title: "Visualisation de Données 3D",
+        title: "Oiseau Raylib",
         description: `
-            <p>Ce projet de visualisation de données transforme des ensembles de données complexes en représentations 3D interactives et intuitives. J'ai développé un système qui permet aux utilisateurs d'explorer visuellement des tendances et des corrélations dans de grands ensembles de données.</p>
-            <p>En utilisant Three.js et GSAP pour les animations, j'ai créé des visualisations fluides qui réagissent aux interactions des utilisateurs. Les utilisateurs peuvent filtrer les données, changer de perspective, et explorer différentes dimensions de l'ensemble de données.</p>
-            <p>Le projet a été initialement développé pour visualiser des données climatiques, mais son architecture modulaire permet de l'adapter facilement à différents types de données et de cas d'utilisation.</p>
+            <p>Ce projet est une simulation en <strong>C++</strong> d'un <strong>essaim d'oiseaux</strong> utilisant la bibliothèque <strong>Raylib</strong>. Il applique les <strong>règles de Boids</strong> pour générer un comportement réaliste des oiseaux en vol. L'affichage et les interactions sont réalisés avec <strong>Raylib</strong>.</p
         `,
+        // IMAGES PROJET 3: Visualisation 3D
+        // Remplacez ces chemins par les chemins réels vers vos images
         images: [
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500"
+            "assets/oiseau1.png",  // Exemple de visualisation de données
+            "assets/oiseau2.png",  // Interface utilisateur du projet
+            "assets/oiseau3.png"   // Détail d'une visualisation
         ],
-        technologies: ["Three.js", "GSAP", "D3.js", "JavaScript", "WebGL", "Data Processing"],
+        technologies: ["Raylib", "C++", "Raymath", "rlgl"],
+        // LIENS PROJET 3: Visualisation 3D
+        // Remplacez ces URLs par vos liens réels
         links: [
-            { text: "Explorer la démo", url: "#demo" },
-            { text: "Documentation", url: "#docs" }
-        ]
-    },
-    // Ajout des données pour les projets créatifs
-    ludo: {
-        title: "Jeu du Ludo en Python",
-        description: `
-            <p>Développement complet d'une version numérique du jeu de plateau Ludo (Petits Chevaux) en Python. Ce projet a requis une connaissance approfondie des algorithmes et des structures de données pour implémenter les règles du jeu et créer une interface utilisateur intuitive.</p>
-            <p>Le jeu propose un mode multijoueur local ainsi qu'un mode contre l'IA avec plusieurs niveaux de difficulté. J'ai implémenté une IA capable d'analyser le plateau et de prendre des décisions stratégiques basées sur la position des pions et les probabilités de dés.</p>
-            <p>L'interface a été développée avec Tkinter et offre une expérience visuelle attrayante tout en restant fidèle au jeu de plateau classique.</p>
-        `,
-        images: [
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500"
-        ],
-        technologies: ["Python", "Tkinter", "Algorithmes", "IA", "Pygame"],
-        links: [
-            { text: "Code Source", url: "#github" },
-            { text: "Télécharger", url: "#download" }
-        ]
-    },
-    ecosystem: {
-        title: "Écosystème Simulé",
-        description: `
-            <p>Simulation d'un écosystème virtuel en C++ modélisant les interactions entre différentes espèces animales et végétales. Ce projet complexe illustre des concepts d'intelligence artificielle, de programmation orientée objet et de visualisation de données.</p>
-            <p>Chaque organisme dans l'écosystème possède son propre système de comportement qui répond à des variables environnementales comme la disponibilité de nourriture, les prédateurs, et les conditions climatiques. Le système utilise un algorithme génétique permettant aux espèces d'évoluer au fil des générations.</p>
-            <p>La simulation permet d'observer comment des changements environnementaux affectent la biodiversité et l'équilibre de l'écosystème, offrant un outil pédagogique intéressant pour comprendre les dynamiques écologiques.</p>
-        `,
-        images: [
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500"
-        ],
-        technologies: ["C++", "OpenGL", "Algorithmes génétiques", "Intelligence artificielle", "Visualisation de données"],
-        links: [
-            { text: "Rapport de projet", url: "#rapport" },
-            { text: "Code Source", url: "#github" }
-        ]
-    },
-    godot: {
-        title: "Jeux 2D avec Godot",
-        description: `
-            <p>Collection de jeux 2D développés avec le moteur Godot, démontrant mes compétences en conception de jeux, programmation GDScript, et animation 2D. Ces projets comprennent un jeu de plateforme, un jeu de puzzle, et un runner infini, chacun avec sa propre esthétique visuelle et son gameplay unique.</p>
-            <p>J'ai développé tous les aspects de ces jeux, de la conception des mécaniques à l'animation des sprites, en passant par la programmation du comportement des ennemis et la création des effets sonores. Les jeux utilisent des systèmes de particules, des animations procédurales et des shaders personnalisés pour créer des expériences visuellement captivantes.</p>
-            <p>Ces projets m'ont permis d'approfondir ma compréhension des principes de conception de jeux comme le "game feel", le rythme de la difficulté, et l'équilibre du gameplay.</p>
-        `,
-        images: [
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500"
-        ],
-        technologies: ["Godot", "GDScript", "Animation 2D", "Conception de jeux", "Shaders"],
-        links: [
-            { text: "Itch.io", url: "#itchio" },
-            { text: "Démo en ligne", url: "#demo" }
-        ]
-    },
-    interactive: {
-        title: "Article Interactif",
-        description: `
-            <p>Création d'un article interactif expliquant des concepts scientifiques complexes à travers des visualisations dynamiques et des mini-jeux éducatifs. Ce projet fusionne le journalisme numérique avec des éléments interactifs pour offrir une expérience d'apprentissage engageante.</p>
-            <p>L'article utilise des animations JavaScript pour illustrer des concepts difficiles à comprendre par le texte seul. Les lecteurs peuvent manipuler les variables dans les simulations pour observer comment les systèmes réagissent aux changements, facilitant la compréhension intuitive des phénomènes décrits.</p>
-            <p>Ce projet démontre ma capacité à simplifier des informations complexes et à les présenter de manière accessible, tout en utilisant les technologies web pour créer une expérience interactive et éducative.</p>
-        `,
-        images: [
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500"
-        ],
-        technologies: ["JavaScript", "D3.js", "HTML Canvas", "CSS Animations", "Vulgarisation scientifique"],
-        links: [
-            { text: "Voir l'article", url: "#article" },
-            { text: "Code Source", url: "#github" }
-        ]
-    },
-    tictactoe: {
-        title: "Ultimate Tic Tac Toe",
-        description: `
-            <p>Implémentation du jeu Ultimate Tic Tac Toe en C avec une IA utilisant l'algorithme Minimax avec élagage alpha-bêta. Ce jeu est une version avancée du morpion classique où chaque case contient un autre jeu de morpion, créant un défi stratégique complexe.</p>
-            <p>L'IA développée pour ce jeu peut analyser l'arbre de possibilités jusqu'à plusieurs coups à l'avance, identifiant les stratégies optimales et anticipant les mouvements de l'adversaire. L'algorithme d'élagage alpha-bêta permet d'optimiser significativement les performances en réduisant le nombre de nœuds à évaluer.</p>
-            <p>Ce projet démontre mes compétences en algorithmique, en théorie des jeux et en optimisation de code pour traiter des problèmes d'une grande complexité computationnelle.</p>
-        `,
-        images: [
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500"
-        ],
-        technologies: ["C", "Algorithme Minimax", "Élagage alpha-bêta", "Terminal NCurses", "Théorie des jeux"],
-        links: [
-            { text: "Jouer en ligne", url: "#play" },
-            { text: "Code Source", url: "#github" }
+            { text: "Code Source", url: "https://github.com/Douniahlt/Oiseau-Raylib" },
         ]
     },
     dessin: {
         title: "Dessins et Illustrations",
         description: `
-            <p>Portfolio de dessins et d'illustrations réalisés sur supports traditionnels et numériques, démontrant mes compétences artistiques et ma capacité à créer des œuvres visuellement attrayantes pour différents contextes.</p>
-            <p>Ma pratique du dessin inclut des illustrations de personnages, des environnements conceptuels, des croquis anatomiques, et des créations abstraites. Je travaille avec différentes techniques, du dessin au crayon traditionnel aux illustrations digitales avec tablette graphique.</p>
-            <p>Cette collection reflète mon approche créative et ma capacité à transposer des idées en images, compétence essentielle pour la conception visuelle dans le domaine des arts numériques.</p>
+            <p>Cette collection présente mes travaux d'illustration et de dessin réalisés sur supports traditionnels et numériques. Mon style combine influences du manga, de l'art conceptuel et de l'illustration contemporaine, avec une attention particulière aux expressions et à l'atmosphère.</p>
+            <p>Mon portfolio inclut des portraits expressifs, des concept arts de personnages, des illustrations de scènes narratives, et des études d'environnements. Chaque œuvre reflète ma recherche constante d'équilibre entre technique et expression artistique personnelle.</p>
+            <p>Ces créations témoignent de ma sensibilité artistique et de mes compétences techniques, des qualités que j'applique également dans mes projets numériques pour créer des expériences visuellement captivantes et émotionnellement engageantes.</p>
+        `,
+        // IMAGES PROJET 4: Dessins et Illustrations
+        // Remplacez ces chemins par les chemins réels vers vos images
+        images: [
+            "images/dessins/image1.jpg",  // Illustration 1
+            "images/dessins/image2.jpg",  // Illustration 2
+            "images/dessins/image3.jpg",  // Illustration 3
+            "images/dessins/image4.jpg",  // Illustration 4
+            "images/dessins/image5.jpg"   // Illustration 5
+        ],
+        technologies: ["Traditionnel", "Digital", "Photoshop", "Krita", "ClipStudio", "Concept Art"],
+        // LIENS PROJET 4: Dessins et Illustrations
+        // Remplacez ces URLs par vos liens réels
+        links: [
+            { text: "ArtStation", url: "https://www.artstation.com/VOTRE_PROFIL" },
+            { text: "Instagram", url: "https://www.instagram.com/VOTRE_PROFIL" }
+        ]
+    },
+
+    // PROJETS ACADÉMIQUES
+    ludo: {
+        title: "Jeu du Ludo en Python",
+        description: `
+            <p>Ce projet académique est une implémentation complète du jeu de plateau Ludo (Petits Chevaux) en Python. J'ai conçu une interface graphique avec Tkinter qui reproduit fidèlement le plateau de jeu classique, tout en ajoutant des fonctionnalités modernes.</p>
+            <p>Le jeu permet de jouer à plusieurs sur un même ordinateur ou contre différents niveaux d'IA. L'intelligence artificielle utilise un algorithme d'évaluation de position avec recherche arborescente pour prendre des décisions stratégiques en fonction de la configuration du plateau et des probabilités de lancer de dés.</p>
+            <p>Ce projet m'a permis d'approfondir mes connaissances en algorithmique, en programmation orientée objet et en développement d'interfaces utilisateur.</p>
+        `,
+ 
+        images: [
+            "assets/ludo.png",  // Interface du jeu
+        ],
+        technologies: ["Python", "Tkinter", "Algorithmes", "IA", "Pygame"],
+
+        links: [
+            { text: "Code Source", url: "https://github.com/Douniahlt/LudoGame" },
+        ]
+    },
+    ecosystem: {
+        title: "Écosystème Simulé",
+        description: `
+            <p>Cette simulation d'écosystème en C++ modélise les interactions complexes entre différentes espèces animales et végétales. Le programme simule un environnement où chaque organisme possède son propre ensemble de comportements et réagit aux conditions environnementales dynamiques.</p>
+            <p>La simulation intègre des concepts avancés comme les algorithmes génétiques permettant aux espèces d'évoluer en réponse aux pressions environnementales, et un modèle physique simplifié pour simuler les interactions entre organismes. Une interface de visualisation en temps réel permet d'observer l'évolution de l'écosystème sur plusieurs générations.</p>
+            <p>Ce projet démontre ma capacité à concevoir des systèmes complexes et à implémenter des concepts d'IA, tout en créant une visualisation claire de phénomènes dynamiques.</p>
+        `,
+        // IMAGES PROJET 6: Écosystème Simulé
+        // Remplacez ces chemins par les chemins réels vers vos images
+        images: [
+            "assets/ecos.png",  // Vue générale de la simulation
+        ],
+        technologies: ["C++", "OpenGL", "Algorithmes génétiques", "Simulation de vie artificielle", "Visualisation de données"],
+
+        links: [
+            { text: "Code Source", url: "https://github.com/Douniahlt/Ecosysteme" },
+        ]
+    },
+    godot: {
+        title: "Jeux 2D avec Godot",
+        description: `
+            <p>FireflyDream est un jeu captivant centré sur le monde fascinant des lucioles. Plongez dans un univers magique où la lumière joue un rôle central. Explorez des niveaux et découvrez des secrets tout en profitant d'une ambiance visuelle en pixel art et d'une bande-son unique créée spécialement pour le jeu.</p>
+        `,
+        // IMAGES PROJET 7: Jeux 2D avec Godot
+        // Remplacez ces chemins par les chemins réels vers vos images
+        images: [
+            "assets/firefly2.png",  // Screenshot du jeu de plateforme
+            "assets/firefly1.png",  // Screenshot du puzzle game
+            "assets/firefly3.png"   // Screenshot de l'endless runner
+        ],
+        technologies: ["Godot", "GDScript", "Pixel Art", "Animation 2D"],
+        // LIENS PROJET 7: Jeux 2D avec Godot
+        // Remplacez ces URLs par vos liens réels
+        links: [
+            { text: "Jouer aux jeux", url: "https://github.com/Douniahlt/FireflyDreams" },
+        ]
+    },
+    interactive: {
+        title: "Article Interactif",
+        description: `
+            <p>Color Perception est une expérience interactive qui explore la manière dont notre cerveau interprète (et parfois déforme) les couleurs en fonction de leur environnement. À travers une narration progressive et une série de mini-jeux inspirés de The Evolution of Trust, les utilisateurs découvrent des illusions comme le contraste simultané et l’adaptation chromatique. Ce projet combine pédagogie, interactivité et design immersif pour rendre accessible un phénomène scientifique fascinant.</p>
+            <p>Ce projet démontre ma capacité à vulgariser des concepts techniques complexes et à créer des expériences pédagogiques engageantes en combinant texte explicatif et interactivité.</p>
+        `,
+        // IMAGES PROJET 8: Article Interactif
+        // Remplacez ces chemins par les chemins réels vers vos images
+        images: [
+            "assets/tut.png",  // Vue générale de l'article
+            "images/interactive/image2.jpg"   // Exemple d'interaction
+        ],
+        technologies: ["JavaScript", "Three.js", "HTML Canvas", "Vulgarisation scientifique"],
+
+        links: [
+            { text: "Voir l'article", url: "https://douniahlt.github.io/projet_tutore/" },
+            { text: "Code Source", url: "https://github.com/Douniahlt/projet_tutore" }
+        ]
+    },
+
+    F1: {
+        title: "F1 Racing Game",
+        description: `
+            <p>F1 Racing Game est un simulateur de course où le joueur peut piloter une voiture de Formule 1 sur différents circuits contre des adversaires contrôlés par l'IA. Le jeu propose un rendu 3D réaliste des voitures et des circuits, ainsi qu'un système de physique permettant des collisions et des dégâts réalistes.</p>
         `,
         images: [
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500",
-            "/api/placeholder/800/500"
+            "assets/F12.png",  // Vue générale de l'article
+            "assets/F13.png",  // Exemple d'interaction
         ],
-        technologies: ["Photoshop", "Krita", "ClipStudio", "Techniques traditionnelles", "Dessin anatomique"],
+        technologies: ["GL4d", "OpenGL", "C", "C++"],
+
         links: [
-            { text: "ArtStation", url: "#artstation" },
-            { text: "Instagram", url: "#instagram" }
+            { text: "Code Source", url: "https://github.com/Douniahlt/F1-RacingGame" }
         ]
-    }
-};
+    },
+
+    tictactoe: {
+        title: "Ultimate Tic Tac Toe",
+        description: `
+            <p>Cette implémentation avancée du jeu Ultimate Tic Tac Toe combine programmation en C et intelligence artificielle. Le jeu consiste en un méta-plateau de 9 cases, chacune contenant un jeu de morpion classique, créant ainsi un défi stratégique complexe.</p>
+            <p>L'IA que j'ai développée utilise l'algorithme Minimax avec élagage alpha-bêta, capable d'explorer l'arbre des possibilités à plusieurs coups d'avance tout en optimisant les performances de calcul. Elle analyse la position globale et locale pour déterminer les coups optimaux, offrant un adversaire redoutable même pour des joueurs expérimentés.</p>
+            <p>L'interface en mode texte (NCurses) permet une visualisation claire des plateaux imbriqués et facilite l'interaction. Ce projet démontre mes compétences en algorithmique, en théorie des jeux et en optimisation.</p>
+        `,
+        // IMAGES PROJET 9: Ultimate Tic Tac Toe
+        // Remplacez ces chemins par les chemins réels vers vos images
+        images: [
+            "assets/Tictactoe.png",  // Interface du jeu
+        ],
+        technologies: ["C", "Algorithme Minimax", "Élagage alpha-bêta", "NCurses", "Théorie des jeux"],
+        // LIENS PROJET 9: Ultimate Tic Tac Toe
+        // Remplacez ces URLs par vos liens réels
+        links: [
+            { text: "Code Source", url: "https://github.com/Douniahlt/Ultimate-TicTacToe" },
+        ]
+    },
+    app: {
+        title: "Application Mobile de Bien-être",
+        description: `
+            <p>QUEENDOM est une application Android éducative sur les échecs, conçue pour introduire les joueurs aux fondamentaux du jeu d'échecs. L'application présente les règles de base, les mouvements des pièces et les stratégies d'ouverture dans une interface simple et intuitive.</p>
+        `,
+   
+        images: [
+            "assets/Appli.png",  // Écran d'accueil de l'application
+            "assets/app2.png",  // Interface de méditation
+            "assets/app3.png"
+        ],
+        technologies: ["Kotlin", "AndroidStudio", "Prototypage", "UI"],
+
+        links: [
+            { text: "Code source", url: "https://github.com/Douniahlt/QUEENDOM" }
+        ]
+    },
+
+    Colt: {
+        title: "Colt Express",
+        description: `
+            <p>Ce projet est une version numérique simplifiée du jeu Colt Express, développé en Python avec Tkinter et Pygame pour l'interface graphique et les sons. Il permet aux joueurs d'incarner des bandits dans un train en mouvement, où ils doivent récupérer un maximum de butins tout en évitant le Marshall.</p>
+        `,
+        images: [
+            "assets/Colt.jpeg",
+            "assets/Colt2.jpg",
+        ],
+        technologies: ["Python", "Pygame", "Tkinter"],
+
+        links: [
+            { text: "Code source", url: "https://github.com/Douniahlt/ColtExpress" },
+        ]
+}
+}
 
 // Fonction pour ouvrir la modal de projet
 function openProjectModal(projectId) {
@@ -1671,6 +1722,7 @@ function openProjectModal(projectId) {
 function closeProjectModal() {
     document.getElementById('project-modal').classList.remove('active');
 }
+
 
 // Animation principale
 function animate() {
