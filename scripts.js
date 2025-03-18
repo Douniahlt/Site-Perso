@@ -1449,7 +1449,7 @@ const projectsData = {
         `,
 
         images: [
-            "Load.png",  // Image principale du projet
+            "/Load.png",  // Image principale du projet
             "/assets/site2.png",  // Deuxième vue du projet
             "/assets/site3.png"   // Troisième vue du projet
         ],
