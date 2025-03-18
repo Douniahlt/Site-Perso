@@ -1450,8 +1450,8 @@ const projectsData = {
 
         images: [
             "/Site-Perso/assets/Load.png",  // Image principale du projet
-            "/assets/site2.png",  // Deuxième vue du projet
-            "/assets/site3.png"   // Troisième vue du projet
+            "/Site-Perso/assets/site2.png",  // Deuxième vue du projet
+            "/Site-Perso/assets/site3.png"   // Troisième vue du projet
         ],
         technologies: ["Three.js", "WebGL", "JavaScript", "HTML5", "CSS3"],
 
@@ -1488,9 +1488,9 @@ const projectsData = {
         `,
 
         images: [
-            "/assets/oiseau1.png",  // Exemple de visualisation de données
-            "/assets/oiseau2.png",  // Interface utilisateur du projet
-            "/assets/oiseau3.png"   // Détail d'une visualisation
+            "/Site-Perso/assets/oiseau1.png",  // Exemple de visualisation de données
+            "/Site-Perso/assets/oiseau2.png",  // Interface utilisateur du projet
+            "/Site-Perso/assets/oiseau3.png"   // Détail d'une visualisation
         ],
         technologies: ["Raylib", "C++", "Raymath", "rlgl"],
 
@@ -1531,7 +1531,7 @@ const projectsData = {
         `,
  
         images: [
-            "/assets/ludo.png",  // Interface du jeu
+            "/Site-Perso/assets/ludo.png",  // Interface du jeu
         ],
         technologies: ["Python", "Tkinter", "Algorithmes", "IA", "Pygame"],
 
@@ -1548,7 +1548,7 @@ const projectsData = {
         `,
 
         images: [
-            "/assets/ecos.png",  // Vue générale de la simulation
+            "/Site-Perso/assets/ecos.png",  // Vue générale de la simulation
         ],
         technologies: ["C++", "OpenGL", "Algorithmes génétiques", "Simulation de vie artificielle", "Visualisation de données"],
 
@@ -1563,9 +1563,9 @@ const projectsData = {
         `,
 
         images: [
-            "/assets/firefly2.png",  // Screenshot du jeu de plateforme
-            "/assets/firefly1.png",  // Screenshot du puzzle game
-            "/assets/firefly3.png"   // Screenshot de l'endless runner
+            "/Site-Perso/assets/firefly2.png",  // Screenshot du jeu de plateforme
+            "/Site-Perso/assets/firefly1.png",  // Screenshot du puzzle game
+            "/Site-Perso/assets/firefly3.png"   // Screenshot de l'endless runner
         ],
         technologies: ["Godot", "GDScript", "Pixel Art", "Animation 2D"],
 
@@ -1581,7 +1581,7 @@ const projectsData = {
         `,
 
         images: [
-            "/assets/tut.png",  // Vue générale de l'article
+            "/Site-Perso/assets/tut.png",  // Vue générale de l'article
             "images/interactive/image2.jpg"   // Exemple d'interaction
         ],
         technologies: ["JavaScript", "Three.js", "HTML Canvas", "Vulgarisation scientifique"],
@@ -1598,8 +1598,8 @@ const projectsData = {
             <p>F1 Racing Game est un simulateur de course où le joueur peut piloter une voiture de Formule 1 sur différents circuits contre des adversaires contrôlés par l'IA. Le jeu propose un rendu 3D réaliste des voitures et des circuits, ainsi qu'un système de physique permettant des collisions et des dégâts réalistes.</p>
         `,
         images: [
-            "/assets/F12.png",  // Vue générale de l'article
-            "/assets/F13.png",  // Exemple d'interaction
+            "/Site-Perso/assets/F12.png",  // Vue générale de l'article
+            "/Site-Perso/assets/F13.png",  // Exemple d'interaction
         ],
         technologies: ["GL4d", "OpenGL", "C", "C++"],
 
@@ -1617,7 +1617,7 @@ const projectsData = {
         `,
 
         images: [
-            "/assets/Tictactoe.png",  // Interface du jeu
+            "/Site-Perso/assets/Tictactoe.png",  // Interface du jeu
         ],
         technologies: ["C", "Algorithme Minimax", "Élagage alpha-bêta", "NCurses", "Théorie des jeux"],
 
@@ -1632,9 +1632,9 @@ const projectsData = {
         `,
    
         images: [
-            "/assets/Appli.png",  // Écran d'accueil de l'application
-            "/assets/app2.png",  // Interface de méditation
-            "/assets/app3.png"
+            "/Site-Perso/assets/Appli.png",  // Écran d'accueil de l'application
+            "/Site-Perso/assets/app2.png",  // Interface de méditation
+            "/Site-Perso/assets/app3.png"
         ],
         technologies: ["Kotlin", "AndroidStudio", "Prototypage", "UI"],
 
@@ -1649,8 +1649,8 @@ const projectsData = {
             <p>Ce projet est une version numérique simplifiée du jeu Colt Express, développé en Python avec Tkinter et Pygame pour l'interface graphique et les sons. Il permet aux joueurs d'incarner des bandits dans un train en mouvement, où ils doivent récupérer un maximum de butins tout en évitant le Marshall.</p>
         `,
         images: [
-            "/assets/Colt.jpeg",
-            "/assets/Colt2.jpg",
+            "/Site-Perso/assets/Colt.jpeg",
+            "/Site-Perso/assets/Colt2.jpg",
         ],
         technologies: ["Python", "Pygame", "Tkinter"],
 
