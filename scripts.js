@@ -1449,9 +1449,9 @@ const projectsData = {
         `,
 
         images: [
-            "assets/Load.png",  // Image principale du projet
-            "assets/site2.png",  // Deuxième vue du projet
-            "assets/site3.png"   // Troisième vue du projet
+            "/assets/Load.png",  // Image principale du projet
+            "/assets/site2.png",  // Deuxième vue du projet
+            "/assets/site3.png"   // Troisième vue du projet
         ],
         technologies: ["Three.js", "WebGL", "JavaScript", "HTML5", "CSS3"],
 
