@@ -1447,16 +1447,14 @@ const projectsData = {
             <p>L'interface guide les visiteurs à travers mon profil tout en révélant progressivement un modèle d'origami, avec des animations fluides et des transitions élégantes. J'ai implémenté des contrôles intuitifs permettant de changer les couleurs du renard et de basculer entre les thèmes clair et sombre.</p>
             <p>La conception responsive assure une expérience optimale sur tous les appareils, tandis que l'aspect ludique encourage l'exploration de mon travail de manière innovante et mémorable.</p>
         `,
-        // IMAGES PROJET 1: Origami Interactif
-        // Remplacez ces chemins par les chemins réels vers vos images
+
         images: [
-            "assets/Load.png",  // Image principale du projet
-            "assets/site2.png",  // Deuxième vue du projet
-            "assets/site3.png"   // Troisième vue du projet
+            "/assets/Load.png",  // Image principale du projet
+            "/assets/site2.png",  // Deuxième vue du projet
+            "/assets/site3.png"   // Troisième vue du projet
         ],
         technologies: ["Three.js", "WebGL", "JavaScript", "HTML5", "CSS3"],
-        // LIENS PROJET 1: Origami Interactif
-        // Remplacez ces URLs par vos liens réels
+
         links: [
             { text: "Code Source", url: "https://github.com/Douniahlt/Site-Perso" },
             { text: "Démo Live", url: "https://douniahlt.github.io/Site-Perso/" }
