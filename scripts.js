@@ -1460,6 +1460,7 @@ const projectsData = {
             { text: "Démo Live", url: "https://douniahlt.github.io/Site-Perso/" }
         ]
     },
+
     portfolio3d: {
         title: "Portfolio 3D",
         description: `
@@ -1467,19 +1468,17 @@ const projectsData = {
             <p>Chaque zone thématique expose différents aspects de mon travail, avec des objets interactifs révélant des informations détaillées sur mes projets. L'ambiance visuelle et sonore change dynamiquement selon la zone explorée, créant une expérience sensorielle complète.</p>
             <p>Ce projet démontre ma passion pour la conception d'espaces virtuels et l'intégration harmonieuse d'éléments 3D et d'interactions utilisateur innovantes.</p>
         `,
-        // IMAGES PROJET 2: Portfolio 3D
-        // Remplacez ces chemins par les chemins réels vers vos images
+
         images: [
             "images/portfolio3d/image1.jpg",  // Vue principale de l'environnement 3D
             "images/portfolio3d/image2.jpg",  // Exemple d'interaction dans l'espace
             "images/portfolio3d/image3.jpg"   // Autre angle de l'environnement
         ],
         technologies: ["Blender", "Unreal Engine", "Modeling 3D", "Three.js"],
-        // LIENS PROJET 2: Portfolio 3D
-        // Remplacez ces URLs par vos liens réels
+
         links: [
-            { text: "Voir la démo", url: "https://youtu.be/VOTRE_ID_VIDEO" },
-            { text: "ArtStation", url: "https://www.artstation.com/VOTRE_PROFIL" }
+            { text: "Voir la démo", url: "" },
+
         ]
     },
     visualization: {
@@ -1487,16 +1486,14 @@ const projectsData = {
         description: `
             <p>Ce projet est une simulation en <strong>C++</strong> d'un <strong>essaim d'oiseaux</strong> utilisant la bibliothèque <strong>Raylib</strong>. Il applique les <strong>règles de Boids</strong> pour générer un comportement réaliste des oiseaux en vol. L'affichage et les interactions sont réalisés avec <strong>Raylib</strong>.</p
         `,
-        // IMAGES PROJET 3: Visualisation 3D
-        // Remplacez ces chemins par les chemins réels vers vos images
+
         images: [
-            "assets/oiseau1.png",  // Exemple de visualisation de données
-            "assets/oiseau2.png",  // Interface utilisateur du projet
-            "assets/oiseau3.png"   // Détail d'une visualisation
+            "/assets/oiseau1.png",  // Exemple de visualisation de données
+            "/assets/oiseau2.png",  // Interface utilisateur du projet
+            "/assets/oiseau3.png"   // Détail d'une visualisation
         ],
         technologies: ["Raylib", "C++", "Raymath", "rlgl"],
-        // LIENS PROJET 3: Visualisation 3D
-        // Remplacez ces URLs par vos liens réels
+
         links: [
             { text: "Code Source", url: "https://github.com/Douniahlt/Oiseau-Raylib" },
         ]
@@ -1508,8 +1505,7 @@ const projectsData = {
             <p>Mon portfolio inclut des portraits expressifs, des concept arts de personnages, des illustrations de scènes narratives, et des études d'environnements. Chaque œuvre reflète ma recherche constante d'équilibre entre technique et expression artistique personnelle.</p>
             <p>Ces créations témoignent de ma sensibilité artistique et de mes compétences techniques, des qualités que j'applique également dans mes projets numériques pour créer des expériences visuellement captivantes et émotionnellement engageantes.</p>
         `,
-        // IMAGES PROJET 4: Dessins et Illustrations
-        // Remplacez ces chemins par les chemins réels vers vos images
+
         images: [
             "images/dessins/image1.jpg",  // Illustration 1
             "images/dessins/image2.jpg",  // Illustration 2
@@ -1518,8 +1514,7 @@ const projectsData = {
             "images/dessins/image5.jpg"   // Illustration 5
         ],
         technologies: ["Traditionnel", "Digital", "Photoshop", "Krita", "ClipStudio", "Concept Art"],
-        // LIENS PROJET 4: Dessins et Illustrations
-        // Remplacez ces URLs par vos liens réels
+
         links: [
             { text: "ArtStation", url: "https://www.artstation.com/VOTRE_PROFIL" },
             { text: "Instagram", url: "https://www.instagram.com/VOTRE_PROFIL" }
@@ -1536,7 +1531,7 @@ const projectsData = {
         `,
  
         images: [
-            "assets/ludo.png",  // Interface du jeu
+            "/assets/ludo.png",  // Interface du jeu
         ],
         technologies: ["Python", "Tkinter", "Algorithmes", "IA", "Pygame"],
 
@@ -1551,10 +1546,9 @@ const projectsData = {
             <p>La simulation intègre des concepts avancés comme les algorithmes génétiques permettant aux espèces d'évoluer en réponse aux pressions environnementales, et un modèle physique simplifié pour simuler les interactions entre organismes. Une interface de visualisation en temps réel permet d'observer l'évolution de l'écosystème sur plusieurs générations.</p>
             <p>Ce projet démontre ma capacité à concevoir des systèmes complexes et à implémenter des concepts d'IA, tout en créant une visualisation claire de phénomènes dynamiques.</p>
         `,
-        // IMAGES PROJET 6: Écosystème Simulé
-        // Remplacez ces chemins par les chemins réels vers vos images
+
         images: [
-            "assets/ecos.png",  // Vue générale de la simulation
+            "/assets/ecos.png",  // Vue générale de la simulation
         ],
         technologies: ["C++", "OpenGL", "Algorithmes génétiques", "Simulation de vie artificielle", "Visualisation de données"],
 
@@ -1567,16 +1561,14 @@ const projectsData = {
         description: `
             <p>FireflyDream est un jeu captivant centré sur le monde fascinant des lucioles. Plongez dans un univers magique où la lumière joue un rôle central. Explorez des niveaux et découvrez des secrets tout en profitant d'une ambiance visuelle en pixel art et d'une bande-son unique créée spécialement pour le jeu.</p>
         `,
-        // IMAGES PROJET 7: Jeux 2D avec Godot
-        // Remplacez ces chemins par les chemins réels vers vos images
+
         images: [
-            "assets/firefly2.png",  // Screenshot du jeu de plateforme
-            "assets/firefly1.png",  // Screenshot du puzzle game
-            "assets/firefly3.png"   // Screenshot de l'endless runner
+            "/assets/firefly2.png",  // Screenshot du jeu de plateforme
+            "/assets/firefly1.png",  // Screenshot du puzzle game
+            "/assets/firefly3.png"   // Screenshot de l'endless runner
         ],
         technologies: ["Godot", "GDScript", "Pixel Art", "Animation 2D"],
-        // LIENS PROJET 7: Jeux 2D avec Godot
-        // Remplacez ces URLs par vos liens réels
+
         links: [
             { text: "Jouer aux jeux", url: "https://github.com/Douniahlt/FireflyDreams" },
         ]
@@ -1587,10 +1579,9 @@ const projectsData = {
             <p>Color Perception est une expérience interactive qui explore la manière dont notre cerveau interprète (et parfois déforme) les couleurs en fonction de leur environnement. À travers une narration progressive et une série de mini-jeux inspirés de The Evolution of Trust, les utilisateurs découvrent des illusions comme le contraste simultané et l’adaptation chromatique. Ce projet combine pédagogie, interactivité et design immersif pour rendre accessible un phénomène scientifique fascinant.</p>
             <p>Ce projet démontre ma capacité à vulgariser des concepts techniques complexes et à créer des expériences pédagogiques engageantes en combinant texte explicatif et interactivité.</p>
         `,
-        // IMAGES PROJET 8: Article Interactif
-        // Remplacez ces chemins par les chemins réels vers vos images
+
         images: [
-            "assets/tut.png",  // Vue générale de l'article
+            "/assets/tut.png",  // Vue générale de l'article
             "images/interactive/image2.jpg"   // Exemple d'interaction
         ],
         technologies: ["JavaScript", "Three.js", "HTML Canvas", "Vulgarisation scientifique"],
@@ -1607,8 +1598,8 @@ const projectsData = {
             <p>F1 Racing Game est un simulateur de course où le joueur peut piloter une voiture de Formule 1 sur différents circuits contre des adversaires contrôlés par l'IA. Le jeu propose un rendu 3D réaliste des voitures et des circuits, ainsi qu'un système de physique permettant des collisions et des dégâts réalistes.</p>
         `,
         images: [
-            "assets/F12.png",  // Vue générale de l'article
-            "assets/F13.png",  // Exemple d'interaction
+            "/assets/F12.png",  // Vue générale de l'article
+            "/assets/F13.png",  // Exemple d'interaction
         ],
         technologies: ["GL4d", "OpenGL", "C", "C++"],
 
@@ -1624,14 +1615,12 @@ const projectsData = {
             <p>L'IA que j'ai développée utilise l'algorithme Minimax avec élagage alpha-bêta, capable d'explorer l'arbre des possibilités à plusieurs coups d'avance tout en optimisant les performances de calcul. Elle analyse la position globale et locale pour déterminer les coups optimaux, offrant un adversaire redoutable même pour des joueurs expérimentés.</p>
             <p>L'interface en mode texte (NCurses) permet une visualisation claire des plateaux imbriqués et facilite l'interaction. Ce projet démontre mes compétences en algorithmique, en théorie des jeux et en optimisation.</p>
         `,
-        // IMAGES PROJET 9: Ultimate Tic Tac Toe
-        // Remplacez ces chemins par les chemins réels vers vos images
+
         images: [
-            "assets/Tictactoe.png",  // Interface du jeu
+            "/assets/Tictactoe.png",  // Interface du jeu
         ],
         technologies: ["C", "Algorithme Minimax", "Élagage alpha-bêta", "NCurses", "Théorie des jeux"],
-        // LIENS PROJET 9: Ultimate Tic Tac Toe
-        // Remplacez ces URLs par vos liens réels
+
         links: [
             { text: "Code Source", url: "https://github.com/Douniahlt/Ultimate-TicTacToe" },
         ]
@@ -1643,9 +1632,9 @@ const projectsData = {
         `,
    
         images: [
-            "assets/Appli.png",  // Écran d'accueil de l'application
-            "assets/app2.png",  // Interface de méditation
-            "assets/app3.png"
+            "/assets/Appli.png",  // Écran d'accueil de l'application
+            "/assets/app2.png",  // Interface de méditation
+            "/assets/app3.png"
         ],
         technologies: ["Kotlin", "AndroidStudio", "Prototypage", "UI"],
 
@@ -1660,8 +1649,8 @@ const projectsData = {
             <p>Ce projet est une version numérique simplifiée du jeu Colt Express, développé en Python avec Tkinter et Pygame pour l'interface graphique et les sons. Il permet aux joueurs d'incarner des bandits dans un train en mouvement, où ils doivent récupérer un maximum de butins tout en évitant le Marshall.</p>
         `,
         images: [
-            "assets/Colt.jpeg",
-            "assets/Colt2.jpg",
+            "/assets/Colt.jpeg",
+            "/assets/Colt2.jpg",
         ],
         technologies: ["Python", "Pygame", "Tkinter"],
 
