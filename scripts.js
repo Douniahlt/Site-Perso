@@ -1626,7 +1626,7 @@ const projectsData = {
         ]
     },
     app: {
-        title: "Application Mobile de Bien-être",
+        title: "Application QUEENDOM",
         description: `
             <p>QUEENDOM est une application Android éducative sur les échecs, conçue pour introduire les joueurs aux fondamentaux du jeu d'échecs. L'application présente les règles de base, les mouvements des pièces et les stratégies d'ouverture dans une interface simple et intuitive.</p>
         `,
