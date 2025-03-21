@@ -1470,14 +1470,15 @@ const projectsData = {
         `,
 
         images: [
-            "images/portfolio3d/image1.jpg",  // Vue principale de l'environnement 3D
-            "images/portfolio3d/image2.jpg",  // Exemple d'interaction dans l'espace
-            "images/portfolio3d/image3.jpg"   // Autre angle de l'environnement
+            "/Site-Perso/assets/site4.png",
+            "/Site-Perso/assets/site5.png",
+            "/Site-Perso/assets/site6.png"
         ],
         technologies: ["Blender", "Unreal Engine", "Modeling 3D", "Three.js"],
 
         links: [
-            { text: "Voir la démo", url: "" },
+            { text: "Voir la démo", url: "https://douniahlt.github.io/Portfolio3D/" },
+            {text: "Code Source", url: "https://github.com/Douniahlt/Portfolio3D"}
 
         ]
     },
