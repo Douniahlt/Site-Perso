@@ -1464,8 +1464,8 @@ const projectsData = {
     portfolio3d: {
         title: "Portfolio 3D",
         description: `
-            <p>Ce portfolio 3D alternatif présente mes projets dans un environnement virtuel immersif créé avec Blender et exporté via Unreal Engine. Inspiré par les jeux vidéo d'exploration, il permet aux visiteurs de se déplacer librement dans un espace interactif représentant mon univers créatif.</p>
-            <p>Chaque zone thématique expose différents aspects de mon travail, avec des objets interactifs révélant des informations détaillées sur mes projets. L'ambiance visuelle et sonore change dynamiquement selon la zone explorée, créant une expérience sensorielle complète.</p>
+            <p>Ce portfolio 3D alternatif présente mes projets dans un environnement virtuel immersif. Inspiré par les jeux vidéo d'exploration, il permet aux visiteurs de se déplacer librement dans un espace interactif représentant mon univers créatif.</p>
+            <p>Chaque zone thématique expose différents aspects de mon travail, avec des objets interactifs révélant des informations détaillées sur mes projets.</p>
             <p>Ce projet démontre ma passion pour la conception d'espaces virtuels et l'intégration harmonieuse d'éléments 3D et d'interactions utilisateur innovantes.</p>
         `,
 
