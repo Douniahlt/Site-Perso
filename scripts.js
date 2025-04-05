@@ -1500,25 +1500,23 @@ const projectsData = {
         ]
     },
     dessin: {
-        title: "Dessins et Illustrations",
+        title: "Portfolio Créatif",
         description: `
-            <p>Cette collection présente mes travaux d'illustration et de dessin réalisés sur supports traditionnels et numériques. Mon style combine influences du manga, de l'art conceptuel et de l'illustration contemporaine, avec une attention particulière aux expressions et à l'atmosphère.</p>
-            <p>Mon portfolio inclut des portraits expressifs, des concept arts de personnages, des illustrations de scènes narratives, et des études d'environnements. Chaque œuvre reflète ma recherche constante d'équilibre entre technique et expression artistique personnelle.</p>
-            <p>Ces créations témoignent de ma sensibilité artistique et de mes compétences techniques, des qualités que j'applique également dans mes projets numériques pour créer des expériences visuellement captivantes et émotionnellement engageantes.</p>
+            <p>Mon portfolio créatif au style arcade présentant mes compétences et projets à travers une interface interactive et ludique inspirée des salles d'arcade.</p>
         `,
 
         images: [
-            "images/dessins/image1.jpg",  // Illustration 1
-            "images/dessins/image2.jpg",  // Illustration 2
-            "images/dessins/image3.jpg",  // Illustration 3
-            "images/dessins/image4.jpg",  // Illustration 4
-            "images/dessins/image5.jpg"   // Illustration 5
+            "/Site-Perso/assets/Creatif1.png",
+            "/Site-Perso/assets/Creatif2.png",
+            "/Site-Perso/assets/Creatif3.png",
+            "/Site-Perso/assets/Creatif4.png",
+            "/Site-Perso/assets/Creatif5.png"
         ],
-        technologies: ["Traditionnel", "Digital", "Photoshop", "Krita", "ClipStudio", "Concept Art"],
+        technologies: ["HTML/CSS", "JavaScript", "Blender", "Unreal Engine", "Raylib", "GL4D", "Traditionnel", "Digital", "Krita"],
 
         links: [
-            { text: "ArtStation", url: "https://www.artstation.com/VOTRE_PROFIL" },
-            { text: "Instagram", url: "https://www.instagram.com/VOTRE_PROFIL" }
+            { text: "Voir le site", url: "https://douniahlt.github.io/Portfolio-Creatif/" },
+            { text: "Code source", url: "https://github.com/Douniahlt/Portfolio-Creatif" }
         ]
     },
 
