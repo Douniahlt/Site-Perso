@@ -1512,7 +1512,7 @@ const projectsData = {
             "/Site-Perso/assets/Creatif4.png",
             "/Site-Perso/assets/Creatif5.png"
         ],
-        technologies: ["HTML/CSS", "JavaScript", "Blender", "Unreal Engine", "Raylib", "GL4D", "Traditionnel", "Digital", "Krita"],
+        technologies: ["HTML/CSS", "JavaScript", "Blender", "Unreal Engine", "Raylib", "C/C++", "GL4D", "Traditionnel", "Digital", "Krita"],
 
         links: [
             { text: "Voir le site", url: "https://douniahlt.github.io/Portfolio-Creatif/" },
